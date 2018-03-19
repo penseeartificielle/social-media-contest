@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# FACEBOOK
+# FACEBOOK 
 TOKEN_USER_FB_SECRET = "Your user token"
 FB_USERNAME = "Your username from FB"
 FB_PASSWORD = "Your password from FB"
