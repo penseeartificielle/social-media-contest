@@ -8,7 +8,7 @@ import time
 ### FACEBOOK ###
 #https://developers.facebook.com/tools/explorer/145634995501895/
 
-TOKEN_FB = "?summary=true&access_token="
+TOKEN_FB = "?limit=999&summary=true&access_token="
 FB_RACINE = "https://graph.facebook.com/v2.12/"
 FB_ID_PENSEE_ARTIFICIELLE = "113483579338897"
 FB_ID_CONCOURS = "158412888179299"
@@ -232,7 +232,7 @@ def grand_gagnant(resultats, tirage, reactions_fb, comments_fb, nb_shares, nb_fa
         tirer_retweet_tw(retweets_tw)
 
 def print_merci():
-    print("Merci à tous pour votre participation ! N'hésitez pas à vous abonner à notre page Facebook / Twitter pour les prochaines fois :)")
+    print("Merci à toutes et à tous pour votre participation ! N'hésitez pas à vous abonner à notre page Facebook / Twitter pour les prochaines fois :)")
             
 print_statistiques()
 total, resultats = generate_liste_resultats()
